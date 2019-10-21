@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2B2B2B;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.1" fx:controller="login.IpController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="346.0" opacity="0.26" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/black_card.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="264.0" prefHeight="400.0" prefWidth="336.0">
+         <children>
+            <TextField fx:id="hostTextField" layoutX="14.0" layoutY="45.0" prefHeight="26.0" prefWidth="129.0" promptText="Host / IP" text="localhost" />
+            <TextField fx:id="gamePortTextField" layoutX="14.0" layoutY="102.0"  prefHeight="26.0" prefWidth="72.0" promptText="Game port" text="4444" />
+            <TextField fx:id="chatPortTextField" layoutX="14.0" layoutY="153.0"  prefHeight="25.0" prefWidth="72.0" promptText="Chat port" text="4445" />
+            <Label layoutX="14.0" layoutY="28.0" prefHeight="17.0" prefWidth="122.0" text="Host" textAlignment="CENTER" textFill="#f2f2f2" />
+            <Label layoutX="14.0" layoutY="136.0" />
+            <Label layoutX="14.0" layoutY="85.0" text="Game port" textFill="#f2f2f2" />
+            <Label layoutX="14.0" layoutY="136.0" text="Chat port" textFill="#f2f2f2" />
+            <Button fx:id="connectButton" layoutX="136.0" layoutY="352.0" mnemonicParsing="false" onAction="#handleConnectButtonAction" text="Connect!" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="18.0" layoutY="27.0" text="Please give the informations " textFill="#f2f2f2" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="62.0" text="of server" textFill="#f2f2f2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="262.0" text="Or leave the deafult values" textFill="#f2f2f2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
