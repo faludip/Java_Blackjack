@@ -1,3 +1,5 @@
+##### Implementing a Blackjack Multyplayer Card Game in Java (The description contains the thesis in Hungarian language)
+
 ##### EÖTVÖS LORÁND TUDOMÁNYEGYETEM
 
 ##### INFORMATIKAI KAR
