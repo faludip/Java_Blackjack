@@ -4,6 +4,8 @@
 
 ##### INFORMATIKAI KAR
 
+A teljes, képeket tartalamzó leírás a szakdolgozat05.20.pdf fájlban található.
+
 ```
 Információs Rendszerek Tanszék
 ```
